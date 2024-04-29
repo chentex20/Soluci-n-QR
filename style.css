@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+.inicio{
+    background-color: rgba(213, 225, 239, 1);
+    display: flex;
+    height: 100vh;
+}
+
+.inicio .contenido-banner{
+    background-color: aliceblue;
+    padding: 20px;
+    margin: auto;
+    width: 320px;
+    height: 497px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.inicio .contenido-banner img{
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;   
+}
+
+.inicio .contenido-banner h1{
+    font-family: "Outfit", sans-serif;
+    font-style: 22px;
+}
+
+.inicio .contenido-banner h2{
+    font-family: "Anybody", sans-serif;
+    font-style: 22px;
+    color: rgba(125, 136, 158, 1);
+    font-size: 15px;
+}
